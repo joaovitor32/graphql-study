@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "rootDir": "src",                                    /* Specify the root folder within your source files. */
+    "baseUrl": "./src",                                  /* Specify the base directory to resolve non-relative module names. */
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths":{
+      "@modules/*":["modules/*"],
+      "@config/*":["config/*"],
+      "@shared/*":["shared/*"],
+      "@infra/*":["infra/*"],
+      "@errors/*":["errors/*"]
+    },                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
+    "outDir": "build",                                   /* Specify an output folder for all emitted files. */
+    /* Type Checking */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
+}
